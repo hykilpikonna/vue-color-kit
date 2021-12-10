@@ -42,6 +42,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "@astappiev/rollup-plugin-scss": "^3.0.6",
     "@microsoft/api-extractor": "7.19.2",
     "@rollup/plugin-alias": "^3.1.8",
     "@rollup/plugin-commonjs": "^21.0.1",
@@ -58,6 +59,7 @@
     "codecov": "^3.8.2",
     "conventional-changelog-cli": "^2.1.1",
     "cross-env": "^7.0.3",
+    "dart-sass": "^1.25.0",
     "jest": "^27.4.4",
     "lint-staged": "^12.1.2",
     "mini-css-extract-plugin": "^2.4.5",
@@ -76,9 +78,7 @@
     "typescript": "^4.5.3",
     "vite": "^2.7.1",
     "vue": "^3.0.5",
-    "yorkie": "^2.0.0",
-    "@astappiev/rollup-plugin-scss": "^3.0.6",
-    "dart-sass": "^1.25.0"
+    "yorkie": "^2.0.0"
   },
   "gitHooks": {
     "pre-commit": "lint-staged",
@@ -109,5 +109,6 @@
   },
   "homepage": "https://github.com/anish2690/vue-color-kit#readme",
   "dependencies": {
+    "color": "^4.1.0"
   }
 }
